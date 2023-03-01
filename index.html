@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/theme.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Document</title>
-</head>
+    <body>
+        <main>
+            <div class="resume">
+                <h1 class="resume__title">Your Result</h1>
+                <p class="resume__rating">
+                    <span class="resume__score">76</span>
+                    of 100
+                </p>
+                <h2 class="resume__mention">Great</h2>
+                <p class="resume__desc">
+                    You scored higher than 65% of the people who have taken these tests.
+                </p>
+            </div>
+            <div class="details">
+                <h2 class="details__title">Summary</h2>
+                <ul class="details__list">
+                    <li class="row row--reaction">
+                        <h3 class="row__title">
+                            <img class="row__icon" src="./assets/images/icon-reaction.svg" alt="Icon Reaction">
+                            Reaction
+                        </h3>
+                        <p class="row__rating">
+                            <span class="row__score">80</span> / 100
+                        </p>
+                    </li>
+                    <li class="row row--memory">
+                        <h3 class="row__title">
+                            <img class="row__icon" src="./assets/images/icon-memory.svg" alt="Icon Memory">
+                            Memory
+                        </h3>
+                        <p class="row__rating">
+                            <span class="row__score">92</span> / 100
+                        </p>
+                    </li>
+                    <li class="row row--verbal">
+                        <h3 class="row__title">
+                            <img class="row__icon" src="./assets/images/icon-verbal.svg" alt="Icon Verbal">
+                            Verbal
+                        </h3>
+                        <p class="row__rating">
+                            <span class="row__score">61</span> / 100
+                        </p>
+                    </li>
+                    <li class="row row--visual">
+                        <h3 class="row__title">
+                            <img class="row__icon" src="./assets/images/icon-visual.svg" alt="Icon Visual">
+                            Visual
+                        </h3>
+                        <p class="row__rating">
+                            <span class="row__score">72</span> / 100
+                        </p>
+                    </li>
+                </ul>
 
-<body>
+                <button class="details__btn">Continue</button>
+            </div>
+        </main>
 
-</body>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+            Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
+        </footer>
+    </body>
 
 </html>

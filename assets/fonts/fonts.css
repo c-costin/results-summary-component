@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Hanken Grotesk Medium";
+  src: url("./static/HankenGrotesk-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hanken Grotesk Bold";
+  src: url("./static/HankenGrotesk-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hanken Grotesk ExtraBold";
+  src: url("./static/HankenGrotesk-ExtraBold.ttf") format("truetype");
+}
