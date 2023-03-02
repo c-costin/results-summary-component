@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live : [Add live site URL here](https://your-live-site-url.com)
+- Live : [https://c-costin.github.io/results-summary-component/](https://c-costin.github.io/results-summary-component/)
 - Repo Github : [https://github.com/c-costin/results-summary-component](https://github.com/c-costin/results-summary-component)
 
 ## My process
